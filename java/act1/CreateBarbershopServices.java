@@ -1,5 +1,3 @@
-package Barbershop;
-
 import java.util.*;
 
 public class CreateBarbershopServices {

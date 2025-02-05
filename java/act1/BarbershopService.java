@@ -1,5 +1,3 @@
-package Barbershop;
-
 public class BarbershopService {
     private String serviceDescription;
     private double price;
