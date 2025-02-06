@@ -13,6 +13,7 @@ public class CreateBarbershopServices {
         inputServiceDescription = scanner.nextLine();    
         System.out.print("Enter price: ");
         inputPrice = scanner.nextDouble();
+        scanner.NextLine();
 
         firstService.setServiceDescription(inputServiceDescription);
         firstService.setPrice(inputPrice); 
@@ -25,6 +26,7 @@ public class CreateBarbershopServices {
         secondService.setServiceDescription(inputServiceDescription);
         secondService.setPrice(inputPrice); 
 
+        System.out.println("");
         System.out.println("First Service: " + firstService.getServiceDescription() + " " + firstService.getPrice());
         System.out.println("Second Service: " + secondService.getServiceDescription() + " " + secondService.getPrice());
 
